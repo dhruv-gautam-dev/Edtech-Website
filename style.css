@@ -1,0 +1,36 @@
+*{
+  margin:0;
+  padding:0;
+}
+.logo{
+  font-size: 35px;
+  font-weight: 600;
+}
+.main-navbar{
+  display: flex;
+  justify-content: space-between;
+  /* border:2px solid black ; */
+  padding:15px;
+  align-items: center;
+  margin-left: 2em ;
+  margin-right: 2em ;
+
+}
+.nav-list-items{
+  list-style: none;
+  display: inline-block;
+  margin-left: 3em;
+}
+.nav-list-button{
+  margin:5px;
+  padding:10px 15px 10px 15px;
+}
+.nav-list-button1{
+  border:none;
+  background-color: white;
+}
+.nav-list-button2{
+  border:none;
+  background-color: rgb(140, 255, 140);
+  border-radius: 5px;
+}
